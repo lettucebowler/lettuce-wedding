@@ -1,17 +1,26 @@
 ---
 import MainLayout from '../layouts/MainLayout.astro';
-import LandingHero from '../components/LandingHero-1.astro';
-import FeaturedGallery from '../components/FeaturedGallery.astro';
-import FeaturedWorkScroll from '../components/FeaturedWorkScroll.astro';
+import PhotoGrid from '../components/PhotoGrid.astro';
+import { getCollections, getImages } from '../data/imageStore';
+
+const images = await getImages({  });
+
+export const getStaticPaths = async () => {
+	return [{ id: undefined }, ...(await getCollections())].map((collection) => {
+		return {
+			params: { collection: collection.id },
+		};
+	});
+};
 ---
 
 <MainLayout>
-	<section class="relative min-h-screen items-center flex py-20 md:py-16 overflow-hidden">
-		<LandingHero />
-		<FeaturedWorkScroll />
-	</section>
-
-	<section class="featured-section py-20">
-		<FeaturedGallery />
+	<section class="py-16">
+		<div class="container-custom">
+			<div class="mb-16 text-center">
+				<h1 class="text-4xl md:text-5xl font-bold mb-4">Payton and Grant's Wedding Photos</h1>
+			</div>
+			<PhotoGrid images={images} />
+		</div>
 	</section>
 </MainLayout>

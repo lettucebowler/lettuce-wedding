@@ -25,8 +25,8 @@ const { images } = Astro.props;
 					src={image.src}
 					quality={90}
 					format="webp"
-					width={image.src.width}
-					height={image.src.height}
+					width={Math.round(image.src.width / 8)}
+					height={Math.round(image.src.height / 8)}
 					class="w-full h-full object-cover rounded-sm shadow-sm hover:shadow-lg transition-shadow"
 					alt={image.title}
 				/>

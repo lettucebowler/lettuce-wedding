@@ -1,90 +1,448 @@
 collections:
-  - id: nature
-    name: Nature
-  - id: travel
-    name: Travel
-  - id: street
-    name: Street
+  - id: wedding
+    name: Wedding
 images:
-  - path: nature/nature-2.jpg
+  - path: wedding/06-10-2025-3.jpg
     meta:
-      title: Nature scene 2
-      description: Serene natural landscape capturing the essence of wilderness.
+      title: Wedding Picture 3
       collections:
-        - nature
+        - wedding
     exif: {}
-  - path: nature/nature-3.jpg
+  - path: wedding/06-10-2025-17.jpg
     meta:
-      title: Nature scene 3
-      description: Breathtaking natural vista showcasing environmental beauty.
+      title: Wedding Picture 17
       collections:
-        - featured
-        - nature
+        - wedding
     exif: {}
-  - path: nature/nature-5.jpg
+  - path: wedding/06-10-2025-22.jpg
     meta:
-      title: Nature scene 5
-      description: Natural landscape showing the raw beauty of the environment.
+      title: Wedding Picture 22
       collections:
-        - nature
+        - wedding
     exif: {}
-  - path: nature/nature-7.jpg
+  - path: wedding/06-10-2025-24.jpg
     meta:
-      title: Nature scene 7
-      description: Stunning natural landscape capturing environmental beauty.
+      title: Wedding Picture 24
       collections:
-        - featured
-        - nature
+        - wedding
     exif: {}
-  - path: nature/nature-8.jpg
+  - path: wedding/06-10-2025-39.jpg
     meta:
-      title: Nature scene 8
-      description: Beautiful natural vista showcasing environmental wonder.
+      title: Wedding Picture 39
       collections:
-        - nature
+        - wedding
     exif: {}
-  - path: nature/L1002174.jpg
+  - path: wedding/06-10-2025-40.jpg
     meta:
-      title: Travel scene 6
-      description: null
+      title: Wedding Picture 40
       collections:
-        - featured
-        - nature
-    exif:
-      captureDate: 2025-03-27T10:35:21.000Z
-      fNumber: 8
-      focalLength: 28
-      iso: 100
-      model: LEICA Q3
-      shutterSpeed: 1250
-      lensModel: SUMMILUX 1:1.7/28 ASPH.
-  - path: nature/nature-10.jpg
-    meta:
-      title: Nature scene 10
-      description: Majestic natural landscape displaying environmental splendor.
-      collections:
-        - nature
+        - wedding
     exif: {}
-  - path: street/stree-1.jpg
+  - path: wedding/06-10-2025-42.jpg
     meta:
-      title: Street photography 1
-      description: Urban scene capturing the essence of city life.
+      title: Wedding Picture 42
       collections:
-        - featured
-        - street
+        - wedding
     exif: {}
-  - path: travel/travel-1.jpg
+  - path: wedding/06-10-2025-50.jpg
     meta:
-      title: Travel scene 1
-      description: Journey through remarkable destinations.
+      title: Wedding Picture 50
       collections:
-        - featured
-        - travel
+        - wedding
     exif: {}
-  - path: nature/nature-1.jpg
+  - path: wedding/06-10-2025-90.jpg
     meta:
-      title: Nature 1
-      description: ''
+      title: Wedding Picture 90
       collections:
-        - nature
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-92.jpg
+    meta:
+      title: Wedding Picture 92
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-98.jpg
+    meta:
+      title: Wedding Picture 98
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-102.jpg
+    meta:
+      title: Wedding Picture 102
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-103.jpg
+    meta:
+      title: Wedding Picture 103
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-105.jpg
+    meta:
+      title: Wedding Picture 105
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-113.jpg
+    meta:
+      title: Wedding Picture 113
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-114.jpg
+    meta:
+      title: Wedding Picture 114
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-118.jpg
+    meta:
+      title: Wedding Picture 118
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-119.jpg
+    meta:
+      title: Wedding Picture 119
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-121.jpg
+    meta:
+      title: Wedding Picture-121
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-122.jpg
+    meta:
+      title: Wedding Picture 122
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-123.jpg
+    meta:
+      title: Wedding Picture 123
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-127.jpg
+    meta:
+      title: Wedding Picture 127
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-128.jpg
+    meta:
+      title: Wedding Picture 128
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-129.jpg
+    meta:
+      title: Wedding Picture 129
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-133.jpg
+    meta:
+      title: Wedding Picture 133
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-144.jpg
+    meta:
+      title: Wedding Picture 144
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-148.jpg
+    meta:
+      title: Wedding Picture 148
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-151.jpg
+    meta:
+      title: Wedding Picture 151
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-152.jpg
+    meta:
+      title: Wedding Picture 152
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-153.jpg
+    meta:
+      title: Wedding Picture 153
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-154.jpg
+    meta:
+      title: Wedding Picture 154
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-162.jpg
+    meta:
+      title: Wedding Picture 162
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-175.jpg
+    meta:
+      title: Wedding Picture 175
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-180.jpg
+    meta:
+      title: Wedding Picture 180
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-183.jpg
+    meta:
+      title: Wedding Picture 183
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-184.jpg
+    meta:
+      title: Wedding Picture 184
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-188.jpg
+    meta:
+      title: Wedding Picture 188
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-191.jpg
+    meta:
+      title: Wedding Picture 191
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-192.jpg
+    meta:
+      title: Wedding Picture 192
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-194.jpg
+    meta:
+      title: Wedding Picture 194
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-200.jpg
+    meta:
+      title: Wedding Picture 200
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-202.jpg
+    meta:
+      title: Wedding Picture 202
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-204.jpg
+    meta:
+      title: Wedding Picture 204
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-209.jpg
+    meta:
+      title: Wedding Picture 209
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-212.jpg
+    meta:
+      title: Wedding Picture 212
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-214.jpg
+    meta:
+      title: Wedding Picture 214
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-217.jpg
+    meta:
+      title: Wedding Picture 217
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-220.jpg
+    meta:
+      title: Wedding Picture 220
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-232.jpg
+    meta:
+      title: Wedding Picture 232
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-234.jpg
+    meta:
+      title: Wedding Picture 234
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-244.jpg
+    meta:
+      title: Wedding Picture 244
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-255.jpg
+    meta:
+      title: Wedding Picture 255
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-258.jpg
+    meta:
+      title: Wedding Picture 258
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-261.jpg
+    meta:
+      title: Wedding Picture 261
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-263.jpg
+    meta:
+      title: Wedding Picture 263
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-267.jpg
+    meta:
+      title: Wedding Picture 267
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-271.jpg
+    meta:
+      title: Wedding Picture 271
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-275.jpg
+    meta:
+      title: Wedding Picture 275
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-281.jpg
+    meta:
+      title: Wedding Picture 281
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-283.jpg
+    meta:
+      title: Wedding Picture 283
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-285.jpg
+    meta:
+      title: Wedding Picture 285
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-286.jpg
+    meta:
+      title: Wedding Picture 286
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-287.jpg
+    meta:
+      title: Wedding Picture 287
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-289.jpg
+    meta:
+      title: Wedding Picture 289
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-291.jpg
+    meta:
+      title: Wedding Picture 291
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-294.jpg
+    meta:
+      title: Wedding Picture 294
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-295.jpg
+    meta:
+      title: Wedding Picture 295
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-321.jpg
+    meta:
+      title: Wedding Picture 321
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-322.jpg
+    meta:
+      title: Wedding Picture 322
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-322.jpg
+    meta:
+      title: Wedding Picture 322
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-323.jpg
+    meta:
+      title: Wedding Picture 323
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-325.jpg
+    meta:
+      title: Wedding Picture 325
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-326.jpg
+    meta:
+      title: Wedding Picture 326
+      collections:
+        - wedding
+    exif: {}
+  - path: wedding/06-10-2025-341.jpg
+    meta:
+      title: Wedding Picture 341
+      collections:
+        - wedding
     exif: {}
