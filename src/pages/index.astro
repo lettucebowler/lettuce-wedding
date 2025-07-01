@@ -16,11 +16,35 @@ export const getStaticPaths = async () => {
 
 <MainLayout>
 	<section class="py-16">
-		<div class="container-custom">
+		<div class="container-custom grid gap-2">
 			<div class="mb-16 text-center">
 				<h1 class="text-4xl md:text-5xl font-bold mb-4">Payton and Grant's Wedding Photos</h1>
 			</div>
 			<PhotoGrid images={images} />
+			<button
+				id="download-button"
+				class="bg-black p-2 rounded-sm text-white cursor-pointer hover:scale-101 transition-all"
+				>Download all Images</button
+			>
 		</div>
 	</section>
 </MainLayout>
+
+<script>
+	const button = document.querySelector('#download-button');
+	if (button) {
+		button.addEventListener('click', (e) => {
+			const links = document.querySelectorAll('a');
+			Array.from(links).forEach(async (link, index) => {
+				await new Promise((resolve) => setTimeout(resolve, 100 * index));
+				const dl = document.createElement('a');
+				dl.download = `payton-grant-wedding-${index + 1}.jpg`;
+				dl.href = link.href;
+				dl.style = 'display: none;';
+				document.body.appendChild(dl);
+				dl.click();
+				document.body.removeChild(dl);
+			});
+		});
+	}
+</script>
