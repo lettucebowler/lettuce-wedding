@@ -20,12 +20,12 @@ images:
       collections:
         - wedding
     exif: {}
-  - path: wedding/06-10-2025-24.jpg
-    meta:
-      title: Wedding Picture 24
-      collections:
-        - wedding
-    exif: {}
+  # - path: wedding/06-10-2025-24.jpg
+  #   meta:
+  #     title: Wedding Picture 24
+  #     collections:
+  #       - wedding
+  #   exif: {}
   - path: wedding/06-10-2025-38.jpg
     meta:
       title: Wedding Picture 38
@@ -92,12 +92,12 @@ images:
       collections:
         - wedding
     exif: {}
-  - path: wedding/06-10-2025-105.jpg
-    meta:
-      title: Wedding Picture 105
-      collections:
-        - wedding
-    exif: {}
+  # - path: wedding/06-10-2025-105.jpg
+  #   meta:
+  #     title: Wedding Picture 105
+  #     collections:
+  #       - wedding
+  #   exif: {}
   - path: wedding/06-10-2025-113.jpg
     meta:
       title: Wedding Picture 113
@@ -110,39 +110,15 @@ images:
       collections:
         - wedding
     exif: {}
-  - path: wedding/06-10-2025-118.jpg
-    meta:
-      title: Wedding Picture 118
-      collections:
-        - wedding
-    exif: {}
   - path: wedding/06-10-2025-119.jpg
     meta:
       title: Wedding Picture 119
       collections:
         - wedding
     exif: {}
-  - path: wedding/06-10-2025-121.jpg
-    meta:
-      title: Wedding Picture-121
-      collections:
-        - wedding
-    exif: {}
-  - path: wedding/06-10-2025-122.jpg
-    meta:
-      title: Wedding Picture 122
-      collections:
-        - wedding
-    exif: {}
   - path: wedding/06-10-2025-123.jpg
     meta:
       title: Wedding Picture 123
-      collections:
-        - wedding
-    exif: {}
-  - path: wedding/06-10-2025-127.jpg
-    meta:
-      title: Wedding Picture 127
       collections:
         - wedding
     exif: {}
@@ -188,21 +164,9 @@ images:
       collections:
         - wedding
     exif: {}
-  - path: wedding/06-10-2025-152.jpg
-    meta:
-      title: Wedding Picture 152
-      collections:
-        - wedding
-    exif: {}
   - path: wedding/06-10-2025-153.jpg
     meta:
       title: Wedding Picture 153
-      collections:
-        - wedding
-    exif: {}
-  - path: wedding/06-10-2025-154.jpg
-    meta:
-      title: Wedding Picture 154
       collections:
         - wedding
     exif: {}
@@ -239,12 +203,6 @@ images:
   - path: wedding/06-10-2025-188.jpg
     meta:
       title: Wedding Picture 188
-      collections:
-        - wedding
-    exif: {}
-  - path: wedding/06-10-2025-191.jpg
-    meta:
-      title: Wedding Picture 191
       collections:
         - wedding
     exif: {}
@@ -335,12 +293,6 @@ images:
   - path: wedding/06-10-2025-258.jpg
     meta:
       title: Wedding Picture 258
-      collections:
-        - wedding
-    exif: {}
-  - path: wedding/06-10-2025-261.jpg
-    meta:
-      title: Wedding Picture 261
       collections:
         - wedding
     exif: {}
